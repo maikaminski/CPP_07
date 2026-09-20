@@ -1,7 +1,7 @@
 #ifndef ITER_HPP
-#define ITER_HPP
+# define ITER_HPP
 
-#include <cstddef>
+# include <cstddef>
 
 template <typename T, typename F>
 void iter(T *array, std::size_t const length, F function)

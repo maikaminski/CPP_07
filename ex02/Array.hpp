@@ -1,7 +1,7 @@
 #ifndef ARRAY_HPP
-#define ARRAY_HPP
-
-#include <exception>
+# define ARRAY_HPP
+# include "Array.tpp"
+# include <exception>
 
 template <typename T>
 class Array
@@ -29,7 +29,5 @@ class Array
 				virtual const char *what() const throw();
 		};
 };
-
-#include "Array.tpp"
 
 #endif
